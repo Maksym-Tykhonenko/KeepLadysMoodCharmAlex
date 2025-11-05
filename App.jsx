@@ -345,7 +345,7 @@ const App = () => {
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
     //console.log('checkUrl==========+>', checkUrl);
 
-    const targetData = new Date('2025-11-01T08:08:00'); //дата з якої поч працювати webView
+    const targetData = new Date('2025-11-07T08:08:00'); //дата з якої поч працювати webView
     const currentData = new Date(); //текущая дата
 
     if (!route) {
@@ -499,12 +499,12 @@ const App = () => {
           >
             <Image
               style={{ width: screenWidth, height: '100%' }}
-              source={require('./assets/images/1.png')}
+              source={require('./assets/images/11.png')}
               resizeMode="cover"
             />
             <Image
               style={{ width: screenWidth, height: '100%' }}
-              source={require('./assets/images/2.png')}
+              source={require('./assets/images/22.png')}
               resizeMode="cover"
             />
           </Animated.View>
